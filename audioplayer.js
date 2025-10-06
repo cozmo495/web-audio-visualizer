@@ -16,9 +16,9 @@ document.getElementById('audioupload').addEventListener('change', function(event
             for (let i = 0; i < pic.data.length; i++) {
               base64String += String.fromCharCode(pic.data[i]);
             }
-            document.getElementById('cover-art').src = 
+            document.getElementById('coverart').src = 
               'data:' + pic.format + ';base64,' + btoa(base64String);
-            document.getElementById('cover-art').style.display = 'block';
+            document.getElementById('coverart').style.display = 'block';
           }
         },
         onError: function(error) {
