@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:wght@200..900&display=swap');
+
+body {
+    font-family: 'Zalando Sans Expanded', sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: image("./mainbackground.jpg");
+}
+#title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 45pt;
+    top: 150px;
+}
+#audioupload {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20pt;
+    top: 200px;
+    left: 250px;
+}
